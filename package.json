@@ -1,5 +1,6 @@
 {
-  "dependencies": {
-    "22": "^0.0.0"
-  }
+  "name": "forge2-qualifier-Tanya",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Kanban board frontend for OpenClaw Slack routing"
 }

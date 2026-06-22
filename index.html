@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kanban Board</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="app-header">
+    <h1>Kanban Board</h1>
+    <div class="board-actions">
+      <button id="addListBtn" class="btn">+ Add List</button>
+      <button id="addMemberBtn" class="btn btn-secondary">+ Add Member</button>
+    </div>
+  </header>
+
+  <main class="board" id="board">
+    <!-- Lists rendered here -->
+  </main>
+
+  <div id="modal" class="modal hidden">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 id="modalTitle">Edit</h2>
+        <button class="close-btn" id="modalClose">&times;</button>
+      </div>
+      <div class="modal-body" id="modalBody"></div>
+      <div class="modal-footer" id="modalFooter"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
