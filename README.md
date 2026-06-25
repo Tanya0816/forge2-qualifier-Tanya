@@ -138,11 +138,9 @@ For Openclaw
 
 Clearly  define the model api you want to use and save it in the .env file.
 
-
-
 In hermes
 
 1. Run 'hermes model'
 2. Choose 'Nous Portal' and click on the link given in the terminal to connect successfully. 
 3. Once selected, select google(gemini) as the model.
-4. 
+   
