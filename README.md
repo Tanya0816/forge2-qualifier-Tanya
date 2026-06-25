@@ -122,3 +122,27 @@ SLACK_APP_TOKEN=xapp-xxxxxxxx
 WORKSPACE_PATH=./workspace
 ```
 
+### 3. Installation
+
+Use WSL terminal in Windows
+
+1. Install hermes and openclaw
+
+For Openclaw
+
+1. Use 'npm install -g openclaw@latest
+2. openclaw onboard
+3. opneclaw doctor
+4. At the time of configuration, opt `Slack` for the communication. 
+5. Create an app in Slack and use the app-token and bot-token from slack in openclaw to connect the Openclaw from the Slack.
+
+Clearly  define the model api you want to use and save it in the .env file.
+
+
+
+In hermes
+
+1. Run 'hermes model'
+2. Choose 'Nous Portal' and click on the link given in the terminal to connect successfully. 
+3. Once selected, select google(gemini) as the model.
+4. 
